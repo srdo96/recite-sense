@@ -1,21 +1,34 @@
 {
   "expo": {
-    "name": "recite-sense",
+    "name": "ReciteSense",
     "slug": "recite-sense",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "myapp",
+    "scheme": "recitesense",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/images/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0E8A59"
+    },
+    "description": "Islamic app that identifies Quran recitations.",
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.recitesense.app",
+      "infoPlist": {
+        "NSMicrophoneUsageDescription": "ReciteSense needs access to your microphone to identify Quran recitations.",
+        "UIBackgroundModes": ["audio"]
+      }
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+        "backgroundColor": "#0E8A59"
+      },
+      "package": "com.recitesense.app",
+      "permissions": ["RECORD_AUDIO", "INTERNET"]
     },
     "web": {
       "bundler": "metro",
@@ -30,7 +43,7 @@
           "image": "./assets/images/splash-icon.png",
           "imageWidth": 200,
           "resizeMode": "contain",
-          "backgroundColor": "#ffffff"
+          "backgroundColor": "#0E8A59"
         }
       ]
     ],
