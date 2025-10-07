@@ -6,7 +6,7 @@ Simply **tap the mic button and recite** — ReciteSense will identify the **Sur
 
 ---
 
-## 📸 Project Preview *(Under Development)*
+## 📸 Project Preview
 
 | Home | Listening Surah to Detact | After Detact |
 |--------------|--------------|--------------|
