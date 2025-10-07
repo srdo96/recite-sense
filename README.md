@@ -1,54 +1,36 @@
-# Welcome to your Expo app 👋
+# 📖 ReciteSense – Quran Recitation Identifier  
+**Project Status:** Under Development  
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+ReciteSense is a smart Quran recitation recognition app.  
+Simply **tap the mic button and recite** — ReciteSense will identify the **Surah**, **Ayah**, and **Reciter** instantly.  
 
-## Get started
+---
 
-1. Install dependencies
+## 📸 Project Preview *(Under Development)*
 
-   ```bash
-   npm install
-   ```
+| Home | Listening Surah to Detact | After Detact |
+|--------------|--------------|--------------|
+| ![0](https://github.com/srdo96/recite-sense/blob/86871ac14cccf9bd13fc7484e0b79a06b903eac5/assets/screenShots/0.jpeg) | ![1](https://github.com/srdo96/recite-sense/blob/86871ac14cccf9bd13fc7484e0b79a06b903eac5/assets/screenShots/1.jpeg) | ![2](https://github.com/srdo96/recite-sense/blob/86871ac14cccf9bd13fc7484e0b79a06b903eac5/assets/screenShots/2.jpeg) |
+| Library | Settings | - |
+| ![3](https://github.com/srdo96/recite-sense/blob/86871ac14cccf9bd13fc7484e0b79a06b903eac5/assets/screenShots/3.jpeg) | ![4](https://github.com/srdo96/recite-sense/blob/86871ac14cccf9bd13fc7484e0b79a06b903eac5/assets/screenShots/4.jpeg) | - |
 
-2. Start the app
+---
 
-   ```bash
-    npx expo start
-   ```
+## ✨ Features
 
-In the output, you'll find options to open the app in a
+- 🎙️ **Voice Recognition** – Identify Surah, Ayah, and Reciter from your recitation  
+- 📚 **Library** – Save and manage your detected recitations  
+- 🌙 **Dark Mode** – Beautiful dark theme
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## 🛠️ Tech Stack
 
-## Get a fresh project
+- **Frontend:** React Native (Expo)  
+- **Language:** TypeScript  
+- **UI:** Tailwind CSS & custom components  
 
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
-
+---
 
 ## 🪪 License
 This project is licensed under the **GPL-3.0 License** — see the [LICENSE](./LICENSE) file for details.
