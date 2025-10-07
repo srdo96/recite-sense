@@ -27,9 +27,7 @@ Simply **tap the mic button and recite** — ReciteSense will identify the **Sur
 ## 🛠️ Tech Stack
 
 - **Frontend:** React Native (Expo)  
-- **Language:** TypeScript  
-- **UI:** Tailwind CSS & custom components  
-
+- **Language:** TypeScript
 ---
 
 ## 🪪 License
